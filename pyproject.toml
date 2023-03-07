@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "explorer"
+authors = [
+    {name = "Hanna Torrence", email = "hanna.torrene@gmail.com"}
+]
+description = "Event data exploration"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "pandas",
+    "plotly",
+]
+dynamic = ["version"]
